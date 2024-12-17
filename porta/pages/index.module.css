@@ -1,0 +1,122 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    padding: 20px;
+  }
+  
+  .parent > div {
+    background-color: #252525;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* Navbar */
+.navbar {
+    background-color: #1a1a1a; /* Fondo oscuro para la navbar */
+  }
+  
+  .navbar ul li a {
+    font-size: 1rem;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+    color: #f5f5f5; /* Letras en blanco para los links */
+  }
+  
+  .navbar ul li a:hover {
+    color: #f97316; /* Hover en naranja */
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 120px 0; /* Aumenta el espacio para la sección */
+    background: linear-gradient(to right, #1f1f1f, #333); /* Fondo oscuro gradiente */
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: white; /* Texto blanco en Hero */
+  }
+  
+  .hero p {
+    color: #f5f5f5; /* Texto en blanco claro */
+  }
+  
+  .hero a {
+    font-weight: 600;
+    background-color: #f97316; /* Naranja */
+    color: white;
+  }
+  
+  /* Proyectos */
+  .project-card {
+    background: #2d2d2d; /* Fondo oscuro para los proyectos */
+    color: #f5f5f5; /* Texto claro */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card h3 {
+    color: #f97316; /* Títulos en color naranja */
+  }
+  
+  .project-card p {
+    color: #d1d1d1; /* Letras en gris claro (más oscuro) */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+  }
+  
+  /* Habilidades */
+  .skill-card {
+    background: #2d2d2d; /* Fondo oscuro para las habilidades */
+    color: #f5f5f5; /* Texto claro */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card h3 {
+    color: #f97316; /* Títulos en color naranja */
+  }
+  
+  .skill-card p {
+    color: #d1d1d1; /* Letras en gris claro (más oscuro) */
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+  }
+  
+  /* Contáctame */
+  #contact {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #f5f5f5; /* Texto claro */
+    padding: 60px 20px;
+  }
+  
+  #contact a {
+    font-weight: bold;
+    background-color: #f97316; /* Naranja */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact a:hover {
+    background-color: #e97b1e; /* Color más oscuro de naranja */
+  }
+  
